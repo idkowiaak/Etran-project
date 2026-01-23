@@ -1,11 +1,11 @@
-import Sidebar from "./Sidebar";
-import Section1 from "./Section1";
-import Section2 from "./Section2";
-import Section3 from "./Section3";
-import Section4 from "./Section4";
-import Section5 from "./Section5";
-import Section6 from "./Section6";
-import FooterSection from "./FooterSection";
+import Sidebar from "./sections//Sidebar";
+import Section1 from "./sections/Section1.jsx";
+import Section2 from "./sections//Section2";
+import Section3 from "./sections//Section3";
+import Section4 from "./sections//Section4";
+import Section5 from "./sections//Section5";
+import Section6 from "./sections//Section6";
+import FooterSection from "./sections//FooterSection";
 function App() {
   return (
     <div className="app-layout">
