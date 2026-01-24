@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -316,10 +320,10 @@ ul li a:hover {
 
 .section4-container,
 .section6-container {
-  height: 100vh;
+  height: auto;
   width: 100%;
-  padding: 40px 0;
-  margin-top: 10rem;
+  padding: 60px 0;
+  margin-top: 4rem;
 }
 
 .section4-container img,
@@ -405,9 +409,10 @@ ul li a:hover {
 /*Section6*/
 
 .section6-container {
-  max-width: 1070px;
+  max-width: 1100px;
+  width: 90%;
   height: 500px;
-  margin: 10rem auto;
+  margin: 4rem auto;
   position: relative;
   border-radius: 20px;
   overflow: hidden;
@@ -420,8 +425,9 @@ ul li a:hover {
   align-items: flex-start;
   padding: 60px;
   box-sizing: border-box;
-  text-align: left;
-  transition: transform 0.4s ease;
+  transition:
+    transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+    box-shadow 0.4s ease;
 }
 
 .section6-container:hover {
@@ -637,7 +643,9 @@ ul li a:hover {
     align-items: center;
     text-align: center;
   }
-
+  nav {
+    gap: 20px;
+  }
   .sidebar-container h1 {
     font-size: 32px;
   }
@@ -703,7 +711,7 @@ ul li a:hover {
   .content-area img,
   .section4-container img,
   .section6-container img {
-    width: 100%;
+    width: 90%;
     margin: 20px auto;
   }
 
