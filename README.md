@@ -1,1 +1,4 @@
-Projekt zrealizowany przy użyciu React.js, oraz Figma Live DEMO: 
+ Projekt zrealizowany przy użyciu React.js, oraz Figma Live DEMO: etran-project.netlify.app
+
+
+
