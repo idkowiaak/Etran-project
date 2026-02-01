@@ -10,7 +10,7 @@ function Section1() {
   ];
   return (
     <main className="content-area">
-      <img src="public\img\Header image.png" alt="" />
+      <img src="/img/Header image.png" alt="" />
       <h2>
         We escalate transfer efficiency
         <br />
